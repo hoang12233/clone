@@ -12,12 +12,34 @@
     bottom: 0;
 }
 
+.line-bt-2 {
+    position: absolute;
+    width: 325px;
+    height: 0px;
+    left: 0px;
+    border: 0.5px solid #1F90BD;
+}
+
+.line-bt-3 {
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 0px;
+    border: 1px solid #D5D5D5;
+    bottom: -17px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
 
 .head-content {
     width: 100%;
     display: flex;
     justify-content: center;
     position: relative;
+    margin-bottom: 032px;
 }
 
 .head-content p {
@@ -31,4 +53,199 @@
     text-transform: uppercase;
     color: #00141D;
     mix-blend-mode: normal;
+}
+
+.blog {
+    margin: 0 135px;
+    word-wrap: break-word;
+}
+
+/* main */
+.main {
+    width: 100%;
+}
+
+.main-wrapper {
+    display: flex;
+    /* margin: 20px 135px 0 135px; */
+
+}
+
+.main-left {
+    width: 61%;
+}
+
+.main-left-body {}
+
+
+.title {
+    font-family: 'Japanese Generic1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 36px;
+}
+
+.time {
+    font-family: 'Japanese Generic1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #63BAF4;
+    margin-bottom: 12px;
+}
+
+.text {
+    font-family: 'Japanese Generic1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 36px;
+}
+
+.img {
+    margin-bottom: 30px;
+}
+
+.main-left-img {
+    margin-bottom: 40px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-small {
+    margin-left: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.small1 {
+    margin-bottom: 9px;
+}
+
+.main-left-text-1 {
+    margin-bottom: 36px;
+}
+
+.main-right {
+    width: 27%;
+    margin-left: 120px;
+    position: relative;
+}
+
+.main-right-title {
+    font-family: 'Japanese Generic1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.main-right-info {
+    font-family: 'Japanese Generic1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.date {
+    color: #34A8E5;
+}
+
+/* hashtags */
+
+.wrap-hashtags {
+    /* margin: 0 135px; */
+    display: flex;
+    position: relative;
+}
+
+.hashtags {
+    padding: 4px 12px;
+    height: 33px;
+    background: #E0EBF8;
+    border-radius: 8px;
+    margin-right: 6px;
+}
+
+.hashtags-1 {
+
+    font-family: 'Japanese Generic1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #1F90BD;
+}
+
+.hashtags-2 {
+
+    font-family: 'Japanese Generic1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #1F90BD;
+}
+
+/* social-network */
+
+.social-network {
+    margin-top: 30px;
+}
+
+.social-network i {
+    color: #1877f2;
+    font-size: 30px;
+    margin-right: 24px;
+}
+
+
+/* wrap-btn */
+
+.wrap-btn {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.back-to-index {
+    background: #FFFFFF;
+    border: 1px solid #2D86AA;
+    border-radius: 25px;
+    padding: 8px 32px;
+    color: #2D86AA;
+}
+
+.wrap-btn i {
+    position: relative;
+    top: 2px;
+}
+
+.come-back {
+    background: #FFFFFF;
+    border: 1px solid #2D86AA;
+    border-radius: 25px;
+    padding: 8px 32px;
+    color: #2D86AA;
+    margin-right: 15px;
+}
+
+.come-back i {}
+
+.next {
+    background: #2D86AA;
+    border: 1px solid #2D86AA;
+    border-radius: 25px;
+    padding: 8px 32px;
+    color: #FFFFFF;
 }

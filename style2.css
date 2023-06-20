@@ -206,3 +206,32 @@ textarea {
 .btn i {
     margin-left: 20px;
 }
+
+.select-container {
+    display: flex;
+    position: relative;
+}
+
+.select-box {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #F7FDFF;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.icon-container {
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    cursor: pointer;
+}
+
+.icon-container i {
+    color: rgba(0, 32, 46, 0.47);
+}
